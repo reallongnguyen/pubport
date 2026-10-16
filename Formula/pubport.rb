@@ -1,8 +1,8 @@
 class Pubport < Formula
   desc "Publish a local port to a stable URL on your own domain via Cloudflare tunnels"
   homepage "https://github.com/reallongnguyen/pubport"
-  url "https://github.com/reallongnguyen/pubport/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "f3f59d9c0a3101c1376b5487f3f7fa18d110446a1e68ddfe3d422f642f32144e"
+  url "https://github.com/reallongnguyen/pubport/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "b356c134a0432c453034bcc83f1e117ef9baa2944a7d5fe6ce6438b2a4584070"
   head "https://github.com/reallongnguyen/pubport.git", branch: "main"
 
   depends_on "go" => :build
