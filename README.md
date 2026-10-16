@@ -26,7 +26,8 @@ Under the hood it wraps the `cloudflared` CLI so you never hand-edit
 ### Homebrew (macOS/Linux)
 
 ```sh
-brew install reallongnguyen/tap/pubport
+brew tap reallongnguyen/pubport https://github.com/reallongnguyen/pubport
+brew install reallongnguyen/pubport/pubport
 ```
 
 This also pulls in `cloudflared` automatically. Upgrade later with
