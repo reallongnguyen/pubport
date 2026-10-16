@@ -13,7 +13,7 @@ import (
 )
 
 // Version is the pubport version, overridable at build time via -ldflags.
-var Version = "0.1.0"
+var Version = "0.1.1"
 
 const usage = `pubport — publish a local port to the internet over a Cloudflare named tunnel.
 
